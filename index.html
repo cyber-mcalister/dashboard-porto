@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel | Dashboard System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <div>
+                <h1>TechAdmin</h1>
+                <nav>
+                    <ul>
+                        <li><li><a href="#" class="active"><i class="fa-solid fa-chart-line"></i> Início</a></li></li>
+
+                        <li><a href="#">Equipes</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Configurações</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+
+        <main>
+            <header>
+                <h2>Visão Geral</h2>
+                <div class="user-info">
+                    <p>Olá Vinícius</p>
+                    <p id="current-date">Quinta Feira, 12 de Março</p>
+                </div>
+
+                <div class="header-right">
+                    <div class="notifications">
+                        <i class="fa-regular fa-bell"></i>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="user-profile">
+                        <img src="Foto_Perfil.jpg" alt="Foto de Perfil">
+                    </div>
+                </div>
+            </header>
+
+            <section class="cards-container">
+                <div>
+                    <h3>Projetos Ativos</h3>
+                    <p>12</p>
+                </div>
+                <div>
+                    <h3>Total de Colaboradores</h3>
+                    <p>6</p>
+                </div>
+                <div>
+                    <h3>Tarefas Pendentes</h3>
+                    <p>6</p>
+                </div>
+            </section>
+
+            <section class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Cargo</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Vinícius Porto</td>
+                            <td>CEO & Fundador</td>
+                            <td>Ativo</td>
+                        </tr>
+                        <tr>
+                            <td>Sarah Oliveira</td>
+                            <td>Líder de TI & COO</td>
+                            <td>Ativo</td>
+                        </tr>
+                        <tr>
+                            <td>Claudio Rodrigues</td>
+                            <td>Diretor de Logística</td>
+                            <td>Ativo</td>
+                        </tr>
+                        <tr>
+                            <td>Roberto Costa</td>
+                            <td>Diretor Financeiro (CFO)</td>
+                            <td>Ativo</td>
+                        </tr>
+                        <tr>
+                            <td>Roseane Paiva</td>
+                            <td>Gestão de Talento</td>
+                            <td>Ativo</td>
+                        </tr>
+                        <tr>
+                            <td>Mariana Bertolatto</td>
+                            <td>Diretora de Marketing</td>
+                            <td>Ativo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <div class="chart-container">
+                <h3>Produtividade Mensal (Toneladas)</h3>
+                <div class="bar-chart">
+                    <div class="bar" style="height: 60%;" data-month="Jan"></div>
+                    <div class="bar" style="height: 80%;" data-month="Fev"></div>
+                    <div class="bar" style="height: 45%;" data-month="Mar"></div>
+                    <div class="bar" style="height: 90%;" data-month="Abr"></div>
+                    <div class="bar" style="height: 75%;" data-month="Mai"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
