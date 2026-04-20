@@ -1,4 +1,4 @@
 # dashboard-porto
-Interface responsiva para sistema de logística, focada em UX e modernidade.
+INTERFACE RESPONSIVA PARA SISTEMA DE LOGÍSTICA, FOCADA EM UX E MOERNIDADE.
 
 ![Demonstração do layout responsivo do projeto](dashboard.png)
